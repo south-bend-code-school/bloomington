@@ -1,0 +1,65 @@
+body{
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+div{
+  color: black;
+  background-color:blue;
+  padding: 240px;
+  margin-left: -20px;
+  margin-right: -20px;
+  
+}
+
+.games{
+  background-color: orange;
+  padding 240px;
+  text-align: left;
+}
+
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: teal;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+.parts{
+  text-align: left;
+  background-color: red;
+
+}
+.albums{
+  text-align: left;
+  background-color: orange;
+
+}

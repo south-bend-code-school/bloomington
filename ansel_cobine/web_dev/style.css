@@ -1,0 +1,61 @@
+/*
+SEE IF YOU CAN IMPLEMENT SOME BACKGROUND COLORS
+Think about what is being called here.
+How would I add this in html?
+*/
+.red {background-color: red;}
+.orange {background-color: orange;}
+.yellow {background-color: yellow;}
+.green {background-color: green;}
+.blue {background-color: blue;}
+.purple {background-color: purple;}
+.pink {background-color: pink;}
+.brown {background-color: brown;}
+.black {background-color: black;}
+.grey {background-color: grey;}
+
+
+
+
+
+
+/*
+1. CHANGE THE BACKGROUND IMAGE.
+
+2. CHANGE THE TEXT COLOR.
+OPTIONAL: uncommemt the last line of this selector and tell me what it does.
+--
+*/
+#hero {
+  background-image: url("https://i.gifer.com/76YS.gif") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  text-align: center;
+  color: white;
+  /* background-attachment: fixed; */
+}  #sad {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ExspEUkoliksz67w8/green-matrix-background_r1gl8-f__F0000.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+
+
+
+/*
+You dont have to change anything after this point.
+ */
+.containers {margin-right: 3%; margin-left: 3%;}
+.row {padding-top: 5%; padding-bottom: 5%;}
+.box {border: 1px solid black; height: 300px !important;}
+h3 {text-align: center;}

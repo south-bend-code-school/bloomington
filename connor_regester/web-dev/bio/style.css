@@ -1,0 +1,62 @@
+/*
+SEE IF YOU CAN IMPLEMENT SOME BACKGROUND COLORS
+Think about what is being called here.
+How would I add this in html?
+*/
+.red {background-color: red;}
+.orange {background-color: orange;}
+.yellow {background-color: yellow;}
+.green {background-color: green;}
+.blue {background-color: blue;}
+.purple {background-color: purple;}
+.pink {background-color: pink;}
+.brown {background-color: brown;}
+.black {background-color: black;}
+.grey {background-color: grey;}
+
+
+h3{
+  font-family: 'Anton', sans-serif;
+}
+p{font-family: 'Indie Flower', cursive;}
+
+
+/*
+1. CHANGE THE BACKGROUND IMAGE.
+2. CHANGE THE TEXT COLOR.
+OPTIONAL: uncommemt the last line of this selector and tell me what it does.
+--
+*/
+#hero {
+  background-image: url("http://pm1.narvii.com/7033/ee041664d6ec72741510281735a0c0214b2f62dbr1-480-480v2_00.jpg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 35%;
+  padding-bottom: 35%;
+  text-align: center;
+  color: white;
+  transition: 3s;
+  /* background-attachment: fixed; */
+
+}
+
+#hero:hover {
+  background-image: url("https://t7.rbxcdn.com/240794b01e52437ed2ef99d6455df92b") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 35%;
+  padding-bottom: 35%;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+/*
+You dont have to change anything after this point.
+ */
+.containers {margin-right: 3%; margin-left: 3%;}
+.row {padding-top: 5%; padding-bottom: 5%;}
+.box {border: 1px solid black; height: 300px !important;}
+h3 {text-align: center;}

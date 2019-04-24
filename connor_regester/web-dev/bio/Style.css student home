@@ -1,0 +1,52 @@
+html, body, #hero {
+    /* height: 100vh; */
+}
+
+#hero {
+/*     background-color: whitesmoke; */
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    /* color: white; */
+}
+
+nav, .nav-wrapper {
+    background-color: grey !important;
+
+}
+
+nav, .nav-wrapper, a {
+    color: black !important;
+}
+
+
+.main {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.student-title {
+    padding: 40px;
+}
+
+#projects {
+    margin-top: 10%;
+}
+#hero {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2MPBL1nW7-_g5PMfzdOl1hDovRHJq0iJeLEWWKLiRowZlTPw0") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 35%;
+  padding-bottom: 35%;
+  text-align: center;
+  color: white;
+  transition: 3s;
+
+
+/*
+ * A good color for the navbar: #1E95C6
+ * A good image for the the hero background: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2MPBL1nW7-_g5PMfzdOl1hDovRHJq0iJeLEWWKLiRowZlTPw0, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNmN1Hv8fUrYZKcO0PFzlc9Qw8QW2VHQS4PwZkI9TJ1fZx-6Oc
+ * other theme colors: paste here:
+ *
+ *  */
