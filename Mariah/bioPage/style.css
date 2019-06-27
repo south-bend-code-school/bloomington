@@ -1,0 +1,8 @@
+body {
+  text-align: center;
+  color: coral;
+  background-image: url("yellow-chevron-hi.png");
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  /* background-size: contain; */
+}

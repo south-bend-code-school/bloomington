@@ -1,0 +1,8 @@
+body {
+  text-align: center;
+  background-image: url("backround.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: blue;
+}
